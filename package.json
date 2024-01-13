@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": " npx cypress open"
+    "start": "nodemon app.js",
+    "open": "npx cypress open"
   },
   "author": "TOSIF K",
   "license": "ISC",
