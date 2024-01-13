@@ -112,7 +112,7 @@ npm run open
 * After running the above command Cypress interface will open.
 * Select **E2E Testing**
 * Select any browser.
-* select the **productForm.cy.js** and click to run the test.
+* select the **productForm.cy.js** and click on it to run the test.
 * File structure in the interface might look like this:
  ```bash
  📒 cypress\e2e\1-getting-started
