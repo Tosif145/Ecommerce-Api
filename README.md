@@ -67,22 +67,22 @@ npm start
 
 #### update variant from database:
 * Method **"PUT"** or **"PATCH"**.
-* Endpoint **"/products/:productId/variants/:variantId"** (Replace prouductId and variantId with actual Id).
+* Endpoint **"/products/:productId/variants/:variantId"** (Replace prouductId and variantId with actual Ids).
 * In Headers selct key as **"Content-type"** and   Value as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
 * Add the variant fields to update or replace.
 * click **"send"**.
 
-#### delete product from database:
+#### delete variant from database:
 * Method **"DELETE"**.
-* Endpoint **"/products/:productId/variants/:variantId"** (Replace prouductId and variantId with actual Id).
+* Endpoint **"/products/:productId/variants/:variantId"** (Replace prouductId and variantId with actual Ids).
 * click **"send"**.
 
 
 # 2. Search functionality
 ### searching product by its name:
 * Method **"GET"**.
-* Endpoint **"/products/search"** (U have to use '?' and 'q', if any space present replace that with '%20').
+* Endpoint **"/products/search"** (You have to use '?' and 'q', if any space present replace that with '%20').
 * Example: http://localhost:3000/api/products/search?q=Sample%20product
 * click **"send"**.
 
