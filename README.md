@@ -40,7 +40,7 @@ npm start
 * To retrieve particular product use **"/products/:productId"** (Replace prouductId with actual Id of the product).
 * click "send".
 
-#### update product from database:
+#### update product in database:
 * Method **"PUT"** or **"PATCH"**.
 * Endpoint **"/products/:productId"** (Replace prouductId with actual Id of the product).
 * In Headers select key as **"Content-type"** and   Value as **"application/json"**.
@@ -66,7 +66,7 @@ npm start
 * click **"send"**.
 
 
-#### update variant from database:
+#### update variant in database:
 * Method **"PUT"** or **"PATCH"**.
 * Endpoint **"/products/:productId/variants/:variantId"** (Replace prouductId and variantId with actual Ids).
 * In Headers select key as **"Content-type"** and   Value as **"application/json"**.
