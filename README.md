@@ -115,9 +115,14 @@ npm run open
 * select the **productForm.cy.js** and click to run the test.
 * File structure in the interface might look like this:
  ```bash
- 🎫 cypress\e2e\1-getting-started
-        🎫 productForm.cy.js
+ 📒 cypress\e2e\1-getting-started
+       📄 productForm.cy.js
  ```
+
+* After the analysis u will see the success result as shown in image:
+
+
+![TDD result](screenshots/TDDResult.png)
 
 ### <li>Twilio</li>
 
