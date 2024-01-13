@@ -97,7 +97,7 @@ Open a Terminal to Install and use cypress
 ```bash
 npm install --save-dev cypress
 ```
-* change ur scripts in ur package.json like below:
+* change ur scripts in package.json like below:
 ```bash
  "scripts": {
     "start": "nodemon app.js",
@@ -109,6 +109,16 @@ npm install --save-dev cypress
 ```bash
 npm run open
 ```
+* After running the above command Cypress interface will open.
+* Select **E2E Testing**
+* Select any browser.
+* select the **productForm.cy.js** and click to run the test.
+* File structure in the interface might look like this:
+  ```bash
+ 🎫 cypress\e2e\1-getting-started
+        🎫 productForm.cy.js
+```
+
 ### <li>Twilio</li>
 
 
