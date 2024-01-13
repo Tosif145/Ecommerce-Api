@@ -124,30 +124,23 @@ npm run open
 
 ![TDD result](screenshots/TDDResult.png)
 
-### <li>Twilio</li>
-
-
 
 # Features Fulfilled
 
-- &#9745; Sign up for a Twilio account and create a new project.
+- &#9745; Endpoints to create, update, delete and retrieve products.
 
-- &#9745; Set up a local development environment. Used NodeJS
+- &#9745;  A product should have at least a name, description, price, and can have multiple variants.
 
-- &#9745; Write a script to send reminders via SMS using Twilio's Programmable SMS API. The script should query the database for when patients need to take certain medicines and send a reminder message to the customer's phone number using the Twilio API. The message should include the medicine name and dosage.
+- &#9745; A variant should have a name, SKU, additional cost (compared to base product cost), and stock count.
 
-- &#9745; Translate the CSV into a more functional database using MongoDB. 
+- &#9745; When creating a product, the API should handle creating/updating/deleting variants too.
 
-- &#9745; Create a web portal where hospital staff can access the database, add patients, edit medicine and dosage amounts.
+- &#9745; An endpoint that allows searching products by product name, description, or variant name.
 
-- &#9745; Set up a webhook to handle customer responses. When a customer replies to the reminder message, the webhook should update the database with the customer's response. Examples of customer responses can be "Yes" or "My prescription is out."
+- &#9745; Write tests for the model to ensure data is being stored and retrieved correctly.
 
-- &#9745; Add the ability for hospital staff to attribute two different medicines to a patient. If the patient needs to take two different medicines on the same day, they should only receive one message.
+- &#9745; Write tests for each endpoint to ensure they function as expected.
 
-- &#9745; Add the ability for hospital staff to attribute up to a dozen different medicines to a patient.
+- &#9745; Write tests to ensure the search functionality works as expected.
 
-# Future Features and Implementations
 
-- &#9744;  Add Authentication And Authorization 
-- &#9744;  Host The WebApp
-- &#9744;  Implement ChatBot
