@@ -36,7 +36,7 @@ npm start
 #### retrieve/read product from database:
 * Method **"GET"**.
 * Endpoint **"/api/products"** to get all products.
-* To retrieve praticular product use **"/products/:productId"**.
+* To retrieve praticular product use **"/products/:productId"** (Replace prouductId with actual Id of the product).
 * click "send".
 
 #### update product from database:
