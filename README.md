@@ -20,7 +20,7 @@ npm install
 npm start
 ```
 
-# 1. CURD operations for both product and variant with Postman
+# 1. CRUD operations for both product and variant with Postman
 
 ### NOTE: use url + endpoints together to perform crud operations, URL =>(http://localhost:3000)
 #### creating/adding product to database:
