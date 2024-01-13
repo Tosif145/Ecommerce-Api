@@ -27,8 +27,8 @@ npm start
 * Endpoint **"/api/products"**.
 * In Headers selct key as **"Content-type"** and   Vaulue as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
-* Add ur product details as shown below and click **"send"** button.
-* Example: u can see the output as show below.
+* Add your product details as shown below and click **"send"** button.
+* Example: you can see the output as show below.
   
 
 ![createing product](screenshots/AddProduct.png)
