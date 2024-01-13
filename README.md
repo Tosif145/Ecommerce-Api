@@ -97,41 +97,19 @@ Open a Terminal to Install and use cypress
 ```bash
 npm install --save-dev cypress
 ```
-  
+* change ur scripts in ur package.json like below:
+```bash
+ "scripts": {
+    "start": "nodemon app.js",
+    "open": "npx cypress open"
+  }
+```
+
+* To run the test use below command:
+```bash
+npm run open
+```
 ### <li>Twilio</li>
-
-# Installation 
-
-Open a Terminal to Install and Run FrontEnd
-
-```bash
-cd dashboard
-npm i
-npm start
-```
-
-This will open a new browser window with react running on it.
-
-Open A new Terminal to run backend
-
-```bash
-cd Backend
-npm i
-npm start
-```
-
-Also don't forget to add ```.env``` file i=on ```/Backend/``` . It will look like 
-
-```js
-MONGOURI=
-PORT=
-TWILIO_ACCOUNT_SID=
-TWILIO_AUTH_TOKEN=
-TWILIO_PHONE_NUMBER=
-MONGO_URL=
-APP_SECRET=
-TWILIO_MESSAGING_SERVICE_SID=
-```
 
 
 
