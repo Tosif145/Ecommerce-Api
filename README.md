@@ -119,7 +119,7 @@ npm run open
        📄 productForm.cy.js
  ```
 
-* After the analysis u will see the success result as shown in image:
+* After the analysis you will see the success results as shown in image:
 
 
 ![TDD result](screenshots/TDDResult.png)
