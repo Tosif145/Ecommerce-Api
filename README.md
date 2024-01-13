@@ -3,18 +3,19 @@
 The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD operation on both Products and Variants with Postman 
 
 ## project intialization.
-
-* Open a Terminal to Install all dependencies use these commands one by one.
+* NOTE: make sure to have all the tools like Node.js, MongoDB are installed in ur system with supportive version.
+* Open a Terminal to Install all dependencies.
+```bash
+npm install
+```
 * Add this in ur package.json:
 ```bash
 "scripts": {
     "start": "nodemon app.js"
     }
 ```
-
-* NOTE: make sure to have all the tools like Node.js, MongoDB are installed in ur system with supportive version.
+* Run below command to start.
 ```bash
-npm install
 npm start
 ```
 
