@@ -114,10 +114,10 @@ npm run open
 * Select any browser.
 * select the **productForm.cy.js** and click to run the test.
 * File structure in the interface might look like this:
-  ```bash
+ ```bash
  🎫 cypress\e2e\1-getting-started
         🎫 productForm.cy.js
-```
+ ```
 
 ### <li>Twilio</li>
 
