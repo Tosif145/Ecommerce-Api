@@ -2,7 +2,8 @@
 ## Introduction
 The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD operation on both Products and Variants with Postman 
 
-### CURD operations with Postman at (http://localhost:3000)
+### CURD operations with Postman at URL =>(http://localhost:3000)
+### NOTE: use url + endpoints to desired output
 #### creating/adding product to database
 * Select POST method and use "api/products".
 * In Headers selct key as "Content-type" and   Vaulue as "application/json".
