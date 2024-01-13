@@ -57,7 +57,7 @@ npm start
 * Endpoint **"/products/:productId/variants"** (Replace prouductId with actual Id of the product).
 * In Headers selct key as **"Content-type"** and   Value as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
-* Add ur variant details and click **"send"** button.
+* Add your variant details and click **"send"** button.
 
 #### retrieve/read variant from database:
 * Method **"GET"**.
