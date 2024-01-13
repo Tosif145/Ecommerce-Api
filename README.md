@@ -69,11 +69,26 @@ The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD
 * Example: http://localhost:3000/api/products/search?q=Sample%20product
 * click **"send"**.
 
+## project intialization.
+
+Open a Terminal to Install all dependencies use these commands one by one.
+NOTE: make sure to have all the tools like Node.js, MongoDB.
+
+```bash
+npm install
+```
+
 # 3. Test Driven Development
 ### This techninque is use to ensure that all functionality of the code working properly.
 * There many TDD tools like Jest, Mocha and Chai, AVA , Cypress etc.
 * We are using Cypress.
+#### Cypress Installation 
 
+Open a Terminal to Install and use cypress
+
+```bash
+npm install --save-dev cypress
+```
   
 ### <li>Twilio</li>
 
