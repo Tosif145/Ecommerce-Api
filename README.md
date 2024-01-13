@@ -70,8 +70,9 @@ The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD
 * click **"send"**.
 
 # 3. Test Driven Development
-### This techninque is use to ensure the all functionality of the code working properly.
+### This techninque is use to ensure that all functionality of the code working properly.
 * There many TDD tools like Jest, Mocha and Chai, AVA , Cypress etc.
+* We are using Cypress.
 
   
 ### <li>Twilio</li>
