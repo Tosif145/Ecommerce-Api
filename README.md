@@ -87,7 +87,7 @@ npm start
 * click **"send"**.
 
 # 3. Test Driven Development
-### This techninque is use to ensure that all functionality of the code working properly.
+### This techninque is used to ensure that all functionality of the code working properly.
 * There many TDD tools like Jest, Mocha and Chai, AVA , Cypress etc.
 * We are using Cypress.
 #### Cypress Installation 
