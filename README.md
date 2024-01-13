@@ -26,7 +26,7 @@ npm start
 #### creating/adding product to database:
 * Method **"POST"**.
 * Endpoint **"/api/products"**.
-* In Headers selct key as **"Content-type"** and   Vaulue as **"application/json"**.
+* In Headers select key as **"Content-type"** and   Vaulue as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
 * Add your product details as shown below and click **"send"** button.
 * Example: you can see the output as shown below.
@@ -43,7 +43,7 @@ npm start
 #### update product from database:
 * Method **"PUT"** or **"PATCH"**.
 * Endpoint **"/products/:productId"** (Replace prouductId with actual Id of the product).
-* In Headers selct key as **"Content-type"** and   Value as **"application/json"**.
+* In Headers select key as **"Content-type"** and   Value as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
 * Add the product fields to update or replace.
 * click **"send"**.
@@ -56,7 +56,7 @@ npm start
 #### creating/adding variant to database:
 * Method **"POST"**.
 * Endpoint **"/products/:productId/variants"** (Replace prouductId with actual Id of the product).
-* In Headers selct key as **"Content-type"** and   Value as **"application/json"**.
+* In Headers select key as **"Content-type"** and   Value as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
 * Add your variant details and click **"send"** button.
 
@@ -69,7 +69,7 @@ npm start
 #### update variant from database:
 * Method **"PUT"** or **"PATCH"**.
 * Endpoint **"/products/:productId/variants/:variantId"** (Replace prouductId and variantId with actual Ids).
-* In Headers selct key as **"Content-type"** and   Value as **"application/json"**.
+* In Headers select key as **"Content-type"** and   Value as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
 * Add the variant fields to update or replace.
 * click **"send"**.
