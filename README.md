@@ -11,7 +11,7 @@ The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD
 * In Body select "raw" and slect "JSON" in the dropdown menu.
 * Add ur product details as shown below and click "send" button.
 * Example: u can see the output as show below.
-* <span style="color:red;">This is red text</span>
+<span style="color:red;">This is red text</span>
 
 ![createing product](screenshots/AddProduct.png)
 
