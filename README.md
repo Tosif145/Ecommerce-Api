@@ -2,6 +2,22 @@
 ## Introduction
 The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD operation on both Products and Variants with Postman 
 
+## project intialization.
+
+* Open a Terminal to Install all dependencies use these commands one by one.
+* Add this in ur package.json:
+```bash
+"scripts": {
+    "start": "nodemon app.js"
+    }
+```
+
+* NOTE: make sure to have all the tools like Node.js, MongoDB are installed in ur system with supportive version.
+```bash
+npm install
+npm start
+```
+
 # 1. CURD operations for both product and variant with Postman
 
 ### NOTE: use url + endpoints together to perform crud operations, URL =>(http://localhost:3000)
@@ -68,15 +84,6 @@ The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD
 * Endpoint **"/products/search"** (U have to use '?' and 'q', if any space present replace that with '%20').
 * Example: http://localhost:3000/api/products/search?q=Sample%20product
 * click **"send"**.
-
-## project intialization.
-
-Open a Terminal to Install all dependencies use these commands one by one.
-NOTE: make sure to have all the tools like Node.js, MongoDB.
-
-```bash
-npm install
-```
 
 # 3. Test Driven Development
 ### This techninque is use to ensure that all functionality of the code working properly.
