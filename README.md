@@ -2,7 +2,7 @@
 ## Introduction
 The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD operation on both Products and Variants with Postman 
 
-### 1.CURD operations with Postman at URL =>(http://localhost:3000)
+### 1.CURD operations for both product and variant with Postman at URL =>(http://localhost:3000)
 ### NOTE: use url + endpoints together to perform crud operations
 #### creating/adding product to database:
 * Method "POST".
@@ -22,7 +22,7 @@ The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD
 #### update product from database:
 * Method "PUT" or "PATCH".
 * Endpoint "/products/:productId" (Replace prouductId with actual Id of the product).
-* In Headers selct key as "Content-type" and   Vaulue as "application/json".
+* In Headers selct key as "Content-type" and   Value as "application/json".
 * In Body select "raw" and slect "JSON" in the dropdown menu.
 * Add the product fields to update or replace.
 * click "send".
@@ -31,10 +31,27 @@ The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD
 * Method "DELETE".
 * Endpoint "/products/:productId" (Replace prouductId with actual Id of the product).
 * click "send".
-  
-![Patients List/ Dashboard](screenshots/PatientsDashboard.png)
 
-![Reminded / sent messages](screenshots/ReminderMessages.png)
+#### creating/adding variant to database:
+* Method "POST".
+* Endpoint "/products/:productId/variants" (Replace prouductId with actual Id of the product).
+* In Headers selct key as "Content-type" and   Value as "application/json".
+* In Body select "raw" and slect "JSON" in the dropdown menu.
+* Add ur variant details and click "send" button.
+
+#### retrieve/read variant from database:
+* Method "GET".
+* Endpoint "/products/:productId/variants" (Replace prouductId with actual Id of the product).
+* click "send".
+
+
+#### update variant from database:
+* Method "PUT" or "PATCH".
+* Endpoint "/products/:productId/variants/:variantId" (Replace prouductId and variantId with actual Id).
+* In Headers selct key as "Content-type" and   Value as "application/json".
+* In Body select "raw" and slect "JSON" in the dropdown menu.
+* Add the variant fields to update or replace.
+* click "send".
 
 
 ### <li>Twilio</li>
