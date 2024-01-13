@@ -1,0 +1,366 @@
+{
+	"info": {
+		"_postman_id": "3a7412d9-fc6a-4567-80f1-6519c16dfb49",
+		"name": "eCommerceApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24453752"
+	},
+	"item": [
+		{
+			"name": "ProductsEndPoint",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/products",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n\r\n   \"name\": \"Iphone\",\r\n   \"description\": \"It is a powerfull mobile\",\r\n   \"price\": 29000\r\n}\r\n\r\n\r\n\r\n   \r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/products",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n\r\n   \"name\": \"Iphone\",\r\n   \"description\": \"It is a powerfull mobile\",\r\n   \"price\": 29000\r\n}\r\n\r\n\r\n\r\n   \r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/products/65a0e93e871e5abcba4286e4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n    {\r\n  \"name\": \"Variant 1\",\r\n  \"SKU\": \"V12345\",\r\n  \"additionalCost\": 10,\r\n  \"stockCount\": 100,\r\n  \"product\": \"65a0e19f871e5abcba4286d7\"  \r\n}\r\n\r\n   \r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products/65a0e93e871e5abcba4286e4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products",
+								"65a0e93e871e5abcba4286e4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/products/search?q=iphone",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Sample Product22\",\r\n  \"description\": \"This is a sample 22\",\r\n  \"price\": 29.99,\r\n  \"variants\": [\r\n    {\r\n      \"name\": \"Variant 1\",\r\n      \"sku\": \"SKU123\",\r\n      \"additionalCost\": 5.00,\r\n      \"stockCount\": 100\r\n    },\r\n    {\r\n      \"name\": \"Variant 2\",\r\n      \"sku\": \"SKU456\",\r\n      \"additionalCost\": 7.50,\r\n      \"stockCount\": 50\r\n    }\r\n  ]\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products/search?q=iphone",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products",
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "iphone"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/products/65a0e93e871e5abcba4286e4",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n \r\n  \"descriptiont\": \"Exclusive item\"\r\n\r\n}\r\n\r\n\r\n\r\n   \r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products/65a0e93e871e5abcba4286e4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products",
+								"65a0e93e871e5abcba4286e4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/products/65a2209c5754d41c6d8077cd",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n \r\n  \"additionalCost\": 300\r\n\r\n}\r\n\r\n\r\n\r\n   \r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products/65a2209c5754d41c6d8077cd",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products",
+								"65a2209c5754d41c6d8077cd"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "This file incluedes CRUD operations over products with respective endpoinjts ."
+		},
+		{
+			"name": "VariantsEndPoint",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/products/65a220db5754d41c6d8077d1/variants",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n   {\r\n  \"name\": \"Variant iphone 14\",\r\n  \"SKU\": \"V12345\",\r\n  \"product\": \"123abc\"\r\n}\r\n\r\n\r\n   \r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products/65a220db5754d41c6d8077d1/variants",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products",
+								"65a220db5754d41c6d8077d1",
+								"variants"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/products/65a220db5754d41c6d8077d1/variants",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n   {\r\n  \"name\": \"Variant iphone 14\",\r\n  \"SKU\": \"V12345\",\r\n  \"product\": \"123abc\"\r\n}\r\n\r\n\r\n   \r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products/65a220db5754d41c6d8077d1/variants",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products",
+								"65a220db5754d41c6d8077d1",
+								"variants"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/products/65a220db5754d41c6d8077d1/variants/65a224d15754d41c6d8077e4",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n   {\r\n  \"name\": \"Variant iphone 14 pro\",\r\n  \"SKU\": \"V12345\",\r\n  \"product\": \"123abc\"\r\n}\r\n\r\n\r\n   \r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products/65a220db5754d41c6d8077d1/variants/65a224d15754d41c6d8077e4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products",
+								"65a220db5754d41c6d8077d1",
+								"variants",
+								"65a224d15754d41c6d8077e4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/products/65a220db5754d41c6d8077d1/variants/65a224d15754d41c6d8077e4",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n   {\r\n  \"name\": \"Variant iphone 14 pro\",\r\n  \"SKU\": \"V12345\",\r\n  \"product\": \"123abc\"\r\n}\r\n\r\n\r\n   \r\n\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/products/65a220db5754d41c6d8077d1/variants/65a224d15754d41c6d8077e4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"products",
+								"65a220db5754d41c6d8077d1",
+								"variants",
+								"65a224d15754d41c6d8077e4"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "This file incluedes CRUD operations over variants with respective endpoinjts ."
+		}
+	]
+}
