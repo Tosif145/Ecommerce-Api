@@ -2,16 +2,36 @@
 ## Introduction
 The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD operation on both Products and Variants with Postman 
 
-### CURD operations with Postman at URL =>(http://localhost:3000)
-### NOTE: use url + endpoints to desired output
-#### creating/adding product to database
-* Select POST method and use "api/products".
+### 1.CURD operations with Postman at URL =>(http://localhost:3000)
+### NOTE: use url + endpoints together to perform crud operations
+#### creating/adding product to database:
+* Method "POST".
+* Endpoint "/api/products".
 * In Headers selct key as "Content-type" and   Vaulue as "application/json".
 * In Body select "raw" and slect "JSON" in the dropdown menu.
-* Add ur product details as showin below and click "send" button
-* Example: 
+* Add ur product details as shown below and click "send" button.
+* Example: u can see the output as show below.
 ![createing product](screenshots/AddProduct.png)
 
+#### retrieve/read product from database:
+* Method "GET".
+* Endpoint "/api/products" to get all products.
+* To retrieve praticular product use "/products/:productId".
+* click "send".
+
+#### update product from database:
+* Method "PUT" or "PATCH".
+* Endpoint "/products/:productId" (Replace prouductId with actual Id of the product).
+* In Headers selct key as "Content-type" and   Vaulue as "application/json".
+* In Body select "raw" and slect "JSON" in the dropdown menu.
+* Add the product fields to update or replace.
+* click "send".
+
+#### delete product from database:
+* Method "DELETE".
+* Endpoint "/products/:productId" (Replace prouductId with actual Id of the product).
+* click "send".
+  
 ![Patients List/ Dashboard](screenshots/PatientsDashboard.png)
 
 ![Reminded / sent messages](screenshots/ReminderMessages.png)
