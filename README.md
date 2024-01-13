@@ -55,7 +55,13 @@ The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD
 * Add the variant fields to update or replace.
 * click **"send"**.
 
+#### delete product from database:
+* Method **"DELETE"**.
+* Endpoint **"/products/:productId/variants/:variantId"** (Replace prouductId and variantId with actual Id).
+* click **"send"**.
 
+
+### 2. Search functionality
 ### <li>Twilio</li>
 
 # Installation 
