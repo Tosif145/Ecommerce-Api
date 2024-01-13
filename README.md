@@ -2,7 +2,7 @@
 ## Introduction
 The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD operation on both Products and Variants with Postman 
 
-# 1.CURD operations for both product and variant with Postman
+# 1. CURD operations for both product and variant with Postman
 
 ### NOTE: use url + endpoints together to perform crud operations, URL =>(http://localhost:3000)
 #### creating/adding product to database:
@@ -63,6 +63,13 @@ The eCommerce Api buit using Node.js, MongoDb. Using this api u can perform CRUD
 
 
 # 2. Search functionality
+### searching product by its name:
+* Method **"GET"**.
+* Endpoint **"/products/search"** (U have to use '?' and 'q', if any space present replace that with '%20').
+* Example: http://localhost:3000/api/products/search?q=Sample%20product
+* click **"send"**.
+
+  
 ### <li>Twilio</li>
 
 # Installation 
