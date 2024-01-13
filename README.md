@@ -6,6 +6,7 @@ The eCommerce Api built using Node.js, MongoDb. Using this api you can perform C
 * NOTE: make sure to have all the tools like Node.js, MongoDB are installed in your system with supportive version.
 * Open a Terminal to Install all dependencies.
 ```bash
+cd Ecommerce-Api
 npm install
 ```
 * Add this in package.json:
