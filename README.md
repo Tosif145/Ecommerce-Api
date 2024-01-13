@@ -1,4 +1,4 @@
-# eCommerce App API Documentation
+# eCommerce API Documentation
 ## Introduction
 The eCommerce Api built using Node.js, MongoDb. Using this api you can perform CRUD operation on both Products and Variants with Postman 
 
