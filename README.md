@@ -37,12 +37,12 @@ npm start
 #### retrieve/read product from database:
 * Method **"GET"**.
 * Endpoint **"/api/products"** to get all products.
-* To retrieve particular product use **"/products/:productId"** (Replace prouductId with actual Id of the product).
+* To retrieve particular product use **"/products/:productId"** (Replace productId with actual Id of the product).
 * click "send".
 
 #### update product in database:
 * Method **"PUT"** or **"PATCH"**.
-* Endpoint **"/products/:productId"** (Replace prouductId with actual Id of the product).
+* Endpoint **"/products/:productId"** (Replace productId with actual Id of the product).
 * In Headers select key as **"Content-type"** and   Value as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
 * Add the product fields to update or replace.
@@ -50,25 +50,25 @@ npm start
 
 #### delete product from database:
 * Method **"DELETE"**.
-* Endpoint **"/products/:productId"** (Replace prouductId with actual Id of the product).
+* Endpoint **"/products/:productId"** (Replace productId with actual Id of the product).
 * click **"send"**.
 
 #### creating/adding variant to database:
 * Method **"POST"**.
-* Endpoint **"/products/:productId/variants"** (Replace prouductId with actual Id of the product).
+* Endpoint **"/products/:productId/variants"** (Replace productId with actual Id of the product).
 * In Headers select key as **"Content-type"** and   Value as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
 * Add your variant details and click **"send"** button.
 
 #### retrieve/read variant from database:
 * Method **"GET"**.
-* Endpoint **"/products/:productId/variants"** (Replace prouductId with actual Id of the product).
+* Endpoint **"/products/:productId/variants"** (Replace productId with actual Id of the product).
 * click **"send"**.
 
 
 #### update variant in database:
 * Method **"PUT"** or **"PATCH"**.
-* Endpoint **"/products/:productId/variants/:variantId"** (Replace prouductId and variantId with actual Ids).
+* Endpoint **"/products/:productId/variants/:variantId"** (Replace productId and variantId with actual Ids).
 * In Headers select key as **"Content-type"** and   Value as **"application/json"**.
 * In Body select **"raw"** and slect **"JSON"** in the dropdown menu.
 * Add the variant fields to update or replace.
@@ -76,7 +76,7 @@ npm start
 
 #### delete variant from database:
 * Method **"DELETE"**.
-* Endpoint **"/products/:productId/variants/:variantId"** (Replace prouductId and variantId with actual Ids).
+* Endpoint **"/products/:productId/variants/:variantId"** (Replace productId and variantId with actual Ids).
 * click **"send"**.
 
 
