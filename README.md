@@ -98,7 +98,7 @@ Open a Terminal to Install and use cypress
 ```bash
 npm install --save-dev cypress
 ```
-* change ur scripts in package.json like below:
+* change your scripts in package.json like below:
 ```bash
  "scripts": {
     "start": "nodemon app.js",
